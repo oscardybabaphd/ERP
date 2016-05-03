@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubebarnERP", "CubebarnERP\CubebarnERP.csproj", "{6B49997A-E5C9-4FAF-9842-DC4391BB0FBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityModels", "IdentityModels\IdentityModels.csproj", "{646F8563-7353-41F8-B35C-334D9F8BD1F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubebarnRepository", "CubebarnRepository\CubebarnRepository.csproj", "{6B566F25-A6D9-440B-B20F-1B2A4A758DA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppContext", "Context\AppContext.csproj", "{B5D99E4C-9390-466A-B004-39773BAB5C57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B49997A-E5C9-4FAF-9842-DC4391BB0FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B49997A-E5C9-4FAF-9842-DC4391BB0FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B49997A-E5C9-4FAF-9842-DC4391BB0FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B49997A-E5C9-4FAF-9842-DC4391BB0FBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646F8563-7353-41F8-B35C-334D9F8BD1F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646F8563-7353-41F8-B35C-334D9F8BD1F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646F8563-7353-41F8-B35C-334D9F8BD1F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646F8563-7353-41F8-B35C-334D9F8BD1F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B566F25-A6D9-440B-B20F-1B2A4A758DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B566F25-A6D9-440B-B20F-1B2A4A758DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B566F25-A6D9-440B-B20F-1B2A4A758DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B566F25-A6D9-440B-B20F-1B2A4A758DA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D99E4C-9390-466A-B004-39773BAB5C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D99E4C-9390-466A-B004-39773BAB5C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D99E4C-9390-466A-B004-39773BAB5C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D99E4C-9390-466A-B004-39773BAB5C57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
