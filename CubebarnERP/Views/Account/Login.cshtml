@@ -1,0 +1,86 @@
+﻿@model CubebarnERP.Models.LoginViewModel
+@{
+    ViewBag.Title = "Log in";
+}
+<body class="login">
+    <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+    <div class="menu-toggler sidebar-toggler">
+    </div>
+    <!-- END SIDEBAR TOGGLER BUTTON -->
+    <!-- BEGIN LOGO -->
+    <div class="logo">
+        <a href="index.html">
+            <img src="~/Script/theme/assets/admin/layout/img/logo-big.png" alt="" />
+        </a>
+    </div>
+    <!-- END LOGO -->
+    <!-- BEGIN LOGIN -->
+    <div class="content">
+        <!-- BEGIN LOGIN FORM -->
+        @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "login-form" }))
+        {
+            @Html.AntiForgeryToken();
+            <h3 class="form-title">Sign In</h3>
+            <div class="alert alert-danger display-hide">
+                <button class="close" data-close="alert"></button>
+                <span>
+                    Enter any username and password.
+                </span>
+                @Html.ValidationSummary(true, "", new { @class = "alert alert-danger display-hide" })
+               
+            </div>
+            
+                if (ViewData.ModelState["loginError"] != null)
+                {
+                    var error = ViewData.ModelState["loginError"].Errors;
+                    foreach (var item in error)
+                    {
+                        <span class="alert alert-danger">@item.ErrorMessage</span>
+                    }
+                }
+            <div class="form-group">
+                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
+                <label class="control-label visible-ie8 visible-ie9">Username</label>
+                <input class="form-control form-control-solid placeholder-no-fix" type="text" autocomplete="off" placeholder="Username" name="Email" />
+            </div>
+            <div class="form-group">
+                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                <label class="control-label visible-ie8 visible-ie9">Password</label>
+                <input class="form-control form-control-solid placeholder-no-fix" type="password" autocomplete="off" placeholder="Password" name="Password" />
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="btn btn-success uppercase">Login</button>
+                <label class="rememberme check">
+                    <input type="checkbox" name="remember" value="" />Remember
+                </label>
+                <a href="javascript:;" id="forget-password" class="forget-password">Forgot Password?</a>
+            </div>
+        }
+        <!-- END LOGIN FORM -->
+        <!-- BEGIN FORGOT PASSWORD FORM -->
+        <form class="forget-form" action="index.html" method="post">
+
+            @using (Html.BeginForm("", "", FormMethod.Post, new { @class = "forget-form" }))
+            {
+                @Html.AntiForgeryToken()
+                <h3>Forget Password ?</h3>
+                <p>
+                    Enter your e-mail address below to reset your password.
+                </p>
+                @Html.ValidationSummary(true, "", new { @class = "alert alert-danger display-hide" })
+                <div class="form-group">
+                    @Html.ValidationMessageFor(m => m.Email, "", new { @class = "alert alert-danger display-hide" })
+                    <input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Email" name="email" />
+                </div>
+                <div class="form-actions">
+                    <button type="button" id="back-btn" class="btn btn-default">Back</button>
+                    <button type="submit" class="btn btn-success uppercase pull-right">Submit</button>
+                </div>
+            }
+        </form>
+    </div>
+    <div class="copyright">
+        2014 © Cubebarn ERP
+    </div>
+</body>
