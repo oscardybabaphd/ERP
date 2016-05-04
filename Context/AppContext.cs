@@ -16,6 +16,7 @@ namespace AppContext
 
         }
         public DbSet<Demo> Demos { get; set; }
+        public DbSet<AccountingEntry> AccountingEntry { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
