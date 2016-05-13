@@ -14,7 +14,6 @@ C:\Appzone\CubebarnApplications\CubebarnERP\Context\bin\Debug\Microsoft.AspNet.I
 C:\Appzone\CubebarnApplications\CubebarnERP\Context\bin\Debug\IdentityModels.pdb
 C:\Appzone\CubebarnApplications\CubebarnERP\Context\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Appzone\CubebarnApplications\CubebarnERP\Context\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-C:\ERP\Context\obj\Debug\AppContext.csprojResolveAssemblyReference.cache
 C:\ERP\Context\bin\Debug\Context.dll.config
 C:\ERP\Context\bin\Debug\Context.dll
 C:\ERP\Context\bin\Debug\Context.pdb
@@ -28,5 +27,6 @@ C:\ERP\Context\bin\Debug\EntityFramework.xml
 C:\ERP\Context\bin\Debug\EntityFramework.SqlServer.xml
 C:\ERP\Context\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\ERP\Context\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\ERP\Context\obj\Debug\AppContext.csprojResolveAssemblyReference.cache
 C:\ERP\Context\obj\Debug\Context.dll
 C:\ERP\Context\obj\Debug\Context.pdb

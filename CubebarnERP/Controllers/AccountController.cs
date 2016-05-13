@@ -138,12 +138,12 @@ namespace CubebarnERP.Controllers
 
         //
         // GET: /Account/Register
-<<<<<<< HEAD
+
         [Authorize]
        // [AllowAnonymous]
-=======
+
         [AllowAnonymous]
->>>>>>> 40c97e3aede2040793d382972642e06cc9bdd07b
+
         public ActionResult Register()
         {
             return View();
@@ -152,12 +152,11 @@ namespace CubebarnERP.Controllers
         //
         // POST: /Account/Register
         [HttpPost]
-<<<<<<< HEAD
+
         [Authorize]
         //[AllowAnonymous]
-=======
+
         [AllowAnonymous]
->>>>>>> 40c97e3aede2040793d382972642e06cc9bdd07b
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Register(RegisterViewModel model)
         {
