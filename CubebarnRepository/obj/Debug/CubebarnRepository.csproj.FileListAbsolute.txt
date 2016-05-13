@@ -4,7 +4,13 @@ C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\Context
 C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\EntityFramework.dll
 C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\EntityFramework.SqlServer.dll
 C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\IdentityModels.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\Context.pdb
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\IdentityModels.pdb
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\de\EntityFramework.resources.dll
 C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\es\EntityFramework.resources.dll
 C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\fr\EntityFramework.resources.dll
@@ -26,9 +32,3 @@ C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\zh-Hant
 C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\obj\Debug\CubebarnRepository.csprojResolveAssemblyReference.cache
 C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\obj\Debug\CubebarnRepository.dll
 C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\obj\Debug\CubebarnRepository.pdb
-C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\IdentityModels.dll
-C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\IdentityModels.pdb
-C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\Microsoft.AspNet.Identity.Core.xml

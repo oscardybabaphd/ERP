@@ -10,6 +10,6 @@ C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\bin\Debug\EntityFrame
 C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\bin\Debug\EntityFramework.SqlServer.xml
 C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\obj\Debug\IdentityModels.csprojResolveAssemblyReference.cache
 C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\obj\Debug\IdentityModels.dll
 C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\obj\Debug\IdentityModels.pdb
+C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\obj\Debug\IdentityModels.csprojResolveAssemblyReference.cache
