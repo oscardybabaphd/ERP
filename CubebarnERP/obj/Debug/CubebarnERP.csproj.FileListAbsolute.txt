@@ -57,3 +57,5 @@ C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnERP\bin\System.Web.Optimizat
 C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnERP\obj\Debug\CubebarnERP.csprojResolveAssemblyReference.cache
 C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnERP\obj\Debug\CubebarnERP.dll
 C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnERP\obj\Debug\CubebarnERP.pdb
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnERP\bin\CubebarnRepository.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnERP\bin\CubebarnRepository.pdb

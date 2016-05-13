@@ -176,6 +176,8 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\RoleManagement\RoleManagementController.cs" />
+    <Compile Include="Controllers\SiteMap\SiteMapController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -4874,6 +4876,8 @@
     <Content Include="Scripts\theme\sass\global\_variables.scss" />
     <Content Include="Scripts\theme\sass\koala-config.json" />
     <Content Include="Views\Shared\_LayoutHome.cshtml" />
+    <Content Include="Views\SiteMap\_SiteMapPartial.cshtml" />
+    <Content Include="Views\RoleManagement\AddRole.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -4887,6 +4891,10 @@
     <ProjectReference Include="..\Context\AppContext.csproj">
       <Project>{b5d99e4c-9390-466a-b004-39773bab5c57}</Project>
       <Name>AppContext</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CubebarnRepository\CubebarnRepository.csproj">
+      <Project>{6b566f25-a6d9-440b-b20f-1b2a4a758da5}</Project>
+      <Name>CubebarnRepository</Name>
     </ProjectReference>
     <ProjectReference Include="..\IdentityModels\IdentityModels.csproj">
       <Project>{646f8563-7353-41f8-b35c-334d9f8bd1f4}</Project>

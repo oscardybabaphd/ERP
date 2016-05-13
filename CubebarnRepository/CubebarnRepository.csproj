@@ -52,11 +52,16 @@
     <Compile Include="GenericRepository\GenericFunctions.cs" />
     <Compile Include="GenericRepository\IGenericFunctions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SiteMapRep\SiteMap.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Context\AppContext.csproj">
       <Project>{b5d99e4c-9390-466a-b004-39773bab5c57}</Project>
       <Name>AppContext</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IdentityModels\IdentityModels.csproj">
+      <Project>{646f8563-7353-41f8-b35c-334d9f8bd1f4}</Project>
+      <Name>IdentityModels</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

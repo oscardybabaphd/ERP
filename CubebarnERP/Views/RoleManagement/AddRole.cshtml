@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "AddRole";
+}
+<h2>Creat Role</h2>
+
+<div class="panel panel-default">
+
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-sm-8">
+                <form role="form">
+                    <div class="form-group">
+                        <label for="email">Role Name:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Roles</div>
+                    <div class="panel-body">
+                        <ul style="list-style-type:none;padding:4px">
+                            @if (Request.IsAuthenticated && Session["SessionSiteMap"] != null)
+                            {
+                                var SiteMapNode = (IEnumerable<IdentityModels.Models.Entities.SiteMapParentNode>)Session["SessionSiteMap"];
+                                foreach (IdentityModels.Models.Entities.SiteMapParentNode parent in SiteMapNode)
+                                {
+                                    <li>
+                                        <input type="checkbox" name="" />
+                                        <i class="icon-folder"></i>
+                                        @parent.ParentRootName
+                                    </li>
+                                    <li>
+                                        <ul style="list-style-type:none">
+                                            @foreach (IdentityModels.Models.Entities.SiteMapSubParentNode child in parent.SiteMapSubParentNode)
+                                            {
+                                                <li class="">
+                                                    <input type="checkbox" name="" />
+                                                    <i class="icon-folder"></i>
+                                                    @child.SubParentRootName
+                                                </li>
+                                                <li>
+                                                    <ul style="list-style-type:none">
+                                                        @for (int i = 0; i < child.SiteMapUrlLabel.Count(); ++i)
+                                                        {
+                                                            <li>
+                                                                <input type="checkbox" name=""/>
+                                                                    <i class="icon-bulb"></i>
+                                                                    @child.SiteMapUrlLabel[i].Label
+                                                               
+                                                            </li>
+                                                        }
+                                                    </ul>
+                                                </li>
+
+                                            }
+                                        </ul>
+                                    </li>
+                                }
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form role="form">
+            <div class="form-group">
+                <button class="btn btn-primary"><i class="icon-disc"></i> Save</button>
+            </div>
+        </form>
+    </div>
+</div>

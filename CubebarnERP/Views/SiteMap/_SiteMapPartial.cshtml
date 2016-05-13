@@ -1,0 +1,37 @@
+﻿@model IEnumerable<IdentityModels.Models.Entities.SiteMapParentNode>
+
+@if (Request.IsAuthenticated && Session["SessionSiteMap"] != null)
+{
+    var SiteMapNode = (IEnumerable<IdentityModels.Models.Entities.SiteMapParentNode>)Session["SessionSiteMap"];
+    foreach (IdentityModels.Models.Entities.SiteMapParentNode parent in SiteMapNode)
+    {
+        <li class="o">
+            <a href="javascript:;">
+                <i class="icon-folder"></i>
+                <span class="title"> @parent.ParentRootName</span>
+                <span class="arrow "></span>
+            </a>
+            <ul class="sub-menu" style="display: none;">
+                @foreach (IdentityModels.Models.Entities.SiteMapSubParentNode child in parent.SiteMapSubParentNode)
+                {
+                    <li class="">
+                        <a href="javascript:;">
+                            <i class="icon-folder"></i> @child.SubParentRootName<span class="arrow "></span>
+                        </a>
+                        <ul class="sub-menu" style="display: none;">
+                            @for (int i = 0; i < child.SiteMapUrlLabel.Count(); ++i)
+                            {
+                                <li>
+                                    <a href="~/@child.SiteMapUrlLabel[i].Url">
+                                        <i class="icon-bulb"></i>
+                                        @child.SiteMapUrlLabel[i].Label
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </li>
+                }
+            </ul>
+        </li>
+    }
+}
