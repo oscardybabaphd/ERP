@@ -1,4 +1,6 @@
-﻿using IdentityModels.Models.Entities;
+﻿using CubebarnERP.Models;
+using IdentityModels.Models.Entities;
+using IdentityModels.Models.Entities.AuditModel;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -18,6 +20,7 @@ namespace AppContext
         public DbSet<SiteMapParentNode> SiteMapParentNode { get; set; }
         public DbSet<SiteMapSubParentNode> SiteMapSubParentNode { get; set; }
         public DbSet<SiteMapUrlLabel> SiteMapUrlLabel { get; set; }
+        public DbSet<AuditModel> AuditRecords { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

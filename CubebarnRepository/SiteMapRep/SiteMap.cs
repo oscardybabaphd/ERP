@@ -12,7 +12,7 @@ namespace CubebarnRepository.SiteMapRep
     {
         public SiteMap()
         {
-
+            
         }
 
         public IList<SiteMapParentNode> _getAll()

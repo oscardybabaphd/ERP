@@ -55,8 +55,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\EnumiratedData.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Entities\AccountingEntry.cs" />
+    <Compile Include="Models\Entities\AuditTrail\AuditModel.cs" />
     <Compile Include="Models\Entities\SiteMap.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -33,7 +33,9 @@ namespace CubebarnERP.Controllers.SiteMap
             session = new AppContextClass();
             SiteMapRepo = new CubebarnRepository.SiteMapRep.SiteMap();
         }
+
         // GET: SiteMap
+        
         public ActionResult SiteMap()
         {
             if(SessionSiteMap.Count() == 0)

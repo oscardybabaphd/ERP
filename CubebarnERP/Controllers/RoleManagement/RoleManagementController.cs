@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CubebarnERP.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -22,6 +23,7 @@ namespace CubebarnERP.Controllers.RoleManagement
         [HttpPost]
         [Authorize]
         [ValidateAntiForgeryToken]
+        [Audit]
         public ActionResult AddRole(FormCollection obj)
         {
             return View();

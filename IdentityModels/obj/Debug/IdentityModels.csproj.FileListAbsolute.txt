@@ -27,3 +27,4 @@ C:\ERP\IdentityModels\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\ERP\IdentityModels\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\ERP\IdentityModels\obj\Debug\IdentityModels.dll
 C:\ERP\IdentityModels\obj\Debug\IdentityModels.pdb
+C:\ERP\IdentityModels\obj\Debug\IdentityModels.csprojResolveAssemblyReference.cache
