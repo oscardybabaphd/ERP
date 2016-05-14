@@ -1,18 +1,3 @@
-C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\bin\Debug\IdentityModels.dll.config
-C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\bin\Debug\IdentityModels.dll
-C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\bin\Debug\IdentityModels.pdb
-C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\bin\Debug\EntityFramework.dll
-C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\bin\Debug\EntityFramework.SqlServer.dll
-C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\bin\Debug\Owin.dll
-C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\bin\Debug\EntityFramework.xml
-C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\bin\Debug\EntityFramework.SqlServer.xml
-C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\obj\Debug\IdentityModels.dll
-C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\obj\Debug\IdentityModels.pdb
-<<<<<<< HEAD
 C:\ERP\IdentityModels\bin\Debug\IdentityModels.dll.config
 C:\ERP\IdentityModels\bin\Debug\IdentityModels.dll
 C:\ERP\IdentityModels\bin\Debug\IdentityModels.pdb
@@ -27,7 +12,3 @@ C:\ERP\IdentityModels\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\ERP\IdentityModels\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\ERP\IdentityModels\obj\Debug\IdentityModels.dll
 C:\ERP\IdentityModels\obj\Debug\IdentityModels.pdb
-C:\ERP\IdentityModels\obj\Debug\IdentityModels.csprojResolveAssemblyReference.cache
-=======
-C:\Appzone\CubebarnApplications\CubebarnERP\IdentityModels\obj\Debug\IdentityModels.csprojResolveAssemblyReference.cache
->>>>>>> 54b4832e3222206ff5491f5517293b0304273b0a

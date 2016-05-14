@@ -18,7 +18,7 @@ namespace CubebarnERP.Models
             //Stores the Request in an Accessible object
             var request = filterContext.HttpContext.Request;
            // var sessionIdentifier = string.Join("", MD5.Create().ComputeHash(Encoding.ASCII.GetBytes(request.Cookies[FormsAuthentication.FormsCookieName].Value)).Select(s => s.ToString("x2")));
-
+            
             //Generate an audit
             AuditModel audit = new AuditModel()
             {
@@ -46,7 +46,7 @@ namespace CubebarnERP.Models
             //We can't simply just Encode the entire request string due to circular references as well
             //as objects that cannot "simply" be serialized such as Streams, References etc.
             //return Json.Encode(request);
-            return Json.Encode(new { request.Cookies, request.Headers, request.Files, request.Form, request.QueryString, request.Params });
+            return Json.Encode(new { request.Files, request.Form });
             
         }
     }

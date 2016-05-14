@@ -174,6 +174,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AuditTrail\AuditController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\RoleManagement\RoleManagementController.cs" />
@@ -4872,6 +4873,7 @@
     <Content Include="Views\SiteMap\_SiteMapPartial.cshtml" />
     <Content Include="Views\RoleManagement\AddRole.cshtml" />
     <Content Include="Views\Test\Index.cshtml" />
+    <Content Include="Views\Audit\GetAuditTrails.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

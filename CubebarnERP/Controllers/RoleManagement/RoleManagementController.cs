@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 ﻿using CubebarnERP.Models;
-=======
 ﻿using AppContext;
->>>>>>> 54b4832e3222206ff5491f5517293b0304273b0a
 using System;
 using System.Collections.Generic;
 using System.Linq;
