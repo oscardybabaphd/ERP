@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\ERP\CubebarnRepository\bin\Debug\CubebarnRepository.dll
 C:\ERP\CubebarnRepository\bin\Debug\CubebarnRepository.pdb
 C:\ERP\CubebarnRepository\bin\Debug\Context.dll
@@ -32,3 +33,39 @@ C:\ERP\CubebarnRepository\bin\Debug\zh-Hant\EntityFramework.SqlServer.resources.
 C:\ERP\CubebarnRepository\obj\Debug\CubebarnRepository.csprojResolveAssemblyReference.cache
 C:\ERP\CubebarnRepository\obj\Debug\CubebarnRepository.dll
 C:\ERP\CubebarnRepository\obj\Debug\CubebarnRepository.pdb
+=======
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\CubebarnRepository.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\CubebarnRepository.pdb
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\Context.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\EntityFramework.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\IdentityModels.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\Context.pdb
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\IdentityModels.pdb
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\de\EntityFramework.resources.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\es\EntityFramework.resources.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\fr\EntityFramework.resources.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\it\EntityFramework.resources.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\ja\EntityFramework.resources.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\ko\EntityFramework.resources.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\ru\EntityFramework.resources.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\de\EntityFramework.SqlServer.resources.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\es\EntityFramework.SqlServer.resources.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\it\EntityFramework.SqlServer.resources.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\ja\EntityFramework.SqlServer.resources.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\ko\EntityFramework.SqlServer.resources.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\bin\Debug\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\obj\Debug\CubebarnRepository.csprojResolveAssemblyReference.cache
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\obj\Debug\CubebarnRepository.dll
+C:\Appzone\CubebarnApplications\CubebarnERP\CubebarnRepository\obj\Debug\CubebarnRepository.pdb
+>>>>>>> 54b4832e3222206ff5491f5517293b0304273b0a
