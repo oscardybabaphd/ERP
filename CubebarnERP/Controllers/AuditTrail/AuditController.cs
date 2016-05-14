@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppContext;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,7 +13,8 @@ namespace CubebarnERP.Controllers.AuditTrail
         // GET: /Audit/
         public ActionResult GetAuditTrails()
         {
-            return View();
+            var audits = new AppContextClass().AuditRecords.OrderByDescending(a => a.ActionDate);
+            return View(audits);
         }
 	}
 }

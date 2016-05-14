@@ -1,7 +1,57 @@
-﻿
-@{
-    ViewBag.Title = "GetAuditTrails";
-}
+﻿    @{
+        ViewBag.Title = "GetAuditTrails";
+    }
 
-<h2>Audit Trails</h2>
+    <h2>Audit Trails</h2>
 
+    <!DOCTYPE HTML>
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Audit Trail</title>
+        <style type="text/css">
+            th {
+                padding-right: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div style="nav-index:auto">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <tr>
+                                <th>IP Address</th>
+                                <th>Username</th>
+                                <th>URL Accessed</th>
+                                <th>Action Date</th>
+                                <th>Data</th>
+                            </tr>
+                            @foreach (IdentityModels.Models.Entities.AuditModel.AuditModel item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.IPAddress)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.UserName)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.URLAccessed)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.ActionDate)
+                                    </td>
+                                    <td title="@item.Data" style="width: 400px; text-overflow: ellipsis; overflow: hidden; white-space:nowrap; display: block">
+                                        @Html.DisplayFor(modelItem => item.Data)
+                                    </td>
+                                </tr>
+                            }
+                        </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
